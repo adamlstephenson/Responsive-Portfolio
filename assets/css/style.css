@@ -340,8 +340,13 @@ p {
         height: 720px;
     }
 
+    #contentarea2 {
+        width: 270px;
+        height: 1400px;
+    }
+
     #contentarea3  {
-        width: 380px;
+        width: 320px;
         height: 560px;
     }
 
@@ -349,12 +354,24 @@ p {
         width: 200px;
         height: 150px;
         top: -740px;
+        padding: 20px;
+        left: 50%;
+    }
+
+    #sidebar2 {
+        width: 200px;
+        height: 150px;
+        top: -1420px;
+        left: 50%;
+        padding: 20px;
     }
 
     #sidebar3 {
         width: 200px;
         height: 150px;
         top: -580px;
+        padding: 20px;
+        left: 50%;
     }
 
     #socialmedia1, #socialmedia2, #socialmedia3 {
@@ -383,11 +400,18 @@ p {
 
     .pagelinks {
         font-size: 16px;
+        left: 50%;
     }
 
     .aboutme {
         font-size: 16px;
    
+    }
+
+    #hangman, #trivia, #rockpaperscissors, #rpggame, #rutgers {
+        height: 210px;
+        width:  270px;
+        margin-left: 0;
     }
 
 
