@@ -417,7 +417,9 @@ p {
 
 @media screen and (max-width: 768px) {
         #contentarea1 {
-            width: 100%;
+            width: 82%;
+            height: 475px;
+            margin-left: 5%;
         }
     
         #contentarea2 {
@@ -431,11 +433,14 @@ p {
         }
     
         #sidebar {
-            width: 100%;
+            width: 85%;
             height: 150px;
-            top: -740px;
+            margin-top: 0;
             padding: 20px;
-            left: 50%;
+            margin-left: 5%;
+            margin-bottom: 40px;
+            position: static;
+            text-align: left;
         }
     
         #sidebar2 {
@@ -459,6 +464,10 @@ p {
             width: 50px;
             height: 50px;
         }
+
+        #sociallist {
+            margin-left: 20px;
+        }
     
         #mypicture {
             width: 250px;
@@ -469,10 +478,12 @@ p {
         h1 {
             width: 170px;
             font-size: large;
+            margin-left: 5%;
         }
     
         h2 {
             font-size: large;
+            margin-left: 20px;
         }
     
         h3, h4, h5 {
@@ -481,7 +492,7 @@ p {
     
         .pagelinks {
             font-size: 16px;
-            left: 50%;
+            left: 62%;
         }
     
         .aboutme {
