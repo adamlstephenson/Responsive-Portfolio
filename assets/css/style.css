@@ -428,8 +428,9 @@ p {
         }
     
         #contentarea3  {
-            width: 320px;
+            width: 85%;
             height: 560px;
+            margin-left: 5%;
         }
     
         #sidebar {
@@ -444,20 +445,26 @@ p {
         }
     
         #sidebar2 {
-            width: 200px;
+            width: 85%;
             height: 150px;
-            top: -1420px;
+            margin-top: 0;
             left: 50%;
             padding: 20px;
-            float: none;
+            margin-left: 5%;
+            margin-bottom: 40px;
+            position: static;
+            text-align: left;
         }
     
         #sidebar3 {
-            width: 200px;
+            width: 85%;
             height: 150px;
-            top: -580px;
+            margin-top: 0;
             padding: 20px;
-            left: 50%;
+            margin-left: 5%;
+            margin-bottom: 40px;
+            position: static;
+            text-align: left;
         }
     
         #socialmedia1, #socialmedia2, #socialmedia3 {
