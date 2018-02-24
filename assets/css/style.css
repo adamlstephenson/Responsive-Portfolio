@@ -423,8 +423,9 @@ p {
         }
     
         #contentarea2 {
-            width: 270px;
-            height: 1400px;
+            width: 82%;
+            height: 950px;
+            margin-left: 5%;
         }
     
         #contentarea3  {
@@ -508,11 +509,14 @@ p {
         }
     
         #hangman, #trivia, #rockpaperscissors, #rpggame, #rutgers {
-            height: 210px;
-            width:  270px;
-            margin-left: 0;
+            height: 230px;
+            width:  290px;
+            
         }
 
+        #trivia, #rutgers {
+            float: right;
+        }
 
 
 
