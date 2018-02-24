@@ -116,6 +116,8 @@ h3, h4, h5 {
 }
 
 
+
+
 #contentarea1 {
     border-style: solid;
     border-color: #dddddd;
@@ -319,7 +321,7 @@ p {
 /*Media Queries*/
 
 @media and screen (max-width: 980px) {
-    
+
 
 }
 
