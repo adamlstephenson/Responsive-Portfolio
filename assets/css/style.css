@@ -215,22 +215,27 @@ h3, h4, h5 {
 }
 #hangman {
     background-image: url(../images/hangman.jpg);
+    background-size: cover;
 }
 
 #trivia {
     background-image: url(../images/triviagame.jpg);
+    background-size: cover;
 }
 
 #rockpaperscissors {
     background-image: url(../images/rockpaperscissors.jpg);
+    background-size: cover;
 }
 
 #rpggame {
     background-image: url(../images/rpggame.jpg);
+    background-size: cover;
 }
 
 #rutgers {
     background-image: url(../images/rutgersinfowidget.jpg);
+    background-size: cover;
 }
 
 
@@ -245,6 +250,7 @@ h3, h4, h5 {
     padding-right: 10%;
     padding-left: 10%;
     text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
 
@@ -353,7 +359,7 @@ p {
         height: 150px;
         margin-top: -780px;
         padding: 20px;
-        margin-left: 60%;
+        margin-left: 50%;
         position: static;
     }
 
@@ -361,7 +367,7 @@ p {
         width: 200px;
         height: 150px;
         margin-top: -1460px;
-        margin-left: 60%;
+        margin-left: 50%;
         padding: 20px;
         position: static;
     }
@@ -371,17 +377,18 @@ p {
     height: 150px;
     margin-top: -620px;
     padding: 20px;
-    margin-left: 60%;
+    margin-left: 50%;
     position: static;
     }
 
     #socialmedia1, #socialmedia2, #socialmedia3 {
         width: 50px;
         height: 50px;
+        padding-top: 20px;
     }
 
     #mypicture {
-        width: 250px;
+        width: 100%;
         height: 190px;
         margin-bottom: 10px;
     }
@@ -419,19 +426,19 @@ p {
         #contentarea1 {
             width: 82%;
             height: 475px;
-            margin-left: 5%;
+            margin-left: 4%;
         }
     
         #contentarea2 {
-            width: 82%;
+            width: 84%;
             height: 950px;
-            margin-left: 5%;
+            margin-left: 4%;
         }
     
         #contentarea3  {
             width: 85%;
             height: 560px;
-            margin-left: 5%;
+            margin-left: 4%;
         }
     
         #sidebar {
@@ -439,19 +446,19 @@ p {
             height: 150px;
             margin-top: 0;
             padding: 20px;
-            margin-left: 5%;
+            margin-left: 4%;
             margin-bottom: 40px;
             position: static;
             text-align: left;
         }
     
         #sidebar2 {
-            width: 85%;
+            width: 87%;
             height: 150px;
             margin-top: 0;
             left: 50%;
             padding: 20px;
-            margin-left: 5%;
+            margin-left: 4%;
             margin-bottom: 40px;
             position: static;
             text-align: left;
@@ -462,15 +469,16 @@ p {
             height: 150px;
             margin-top: 0;
             padding: 20px;
-            margin-left: 5%;
+            margin-left: 4%;
             margin-bottom: 40px;
             position: static;
             text-align: left;
         }
     
         #socialmedia1, #socialmedia2, #socialmedia3 {
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
+            padding-top: 20px;
         }
 
         #sociallist {
@@ -500,7 +508,8 @@ p {
     
         .pagelinks {
             font-size: 16px;
-            left: 62%;
+            left: 60%;
+            margin-top: -7%;
         }
     
         .aboutme {
@@ -523,20 +532,20 @@ p {
             
             #contentarea1 {
                 width: 82%;
-                height: 475px;
-                margin-left: 5%;
+                height: 640px;
+                margin-left: 4%;
             }
         
             #contentarea2 {
                 width: 82%;
-                height: 950px;
-                margin-left: 5%;
+                height: 1700px;
+                margin-left: 4%;
             }
         
             #contentarea3  {
                 width: 85%;
                 height: 560px;
-                margin-left: 5%;
+                margin-left: 4%;
             }
         
             #sidebar {
@@ -544,7 +553,7 @@ p {
                 height: 150px;
                 margin-top: 0;
                 padding: 20px;
-                margin-left: 5%;
+                margin-left: 4%;
                 margin-bottom: 40px;
                 position: static;
                 text-align: left;
@@ -556,7 +565,7 @@ p {
                 margin-top: 0;
                 left: 50%;
                 padding: 20px;
-                margin-left: 5%;
+                margin-left: 4%;
                 margin-bottom: 40px;
                 position: static;
                 text-align: left;
@@ -567,15 +576,16 @@ p {
                 height: 150px;
                 margin-top: 0;
                 padding: 20px;
-                margin-left: 5%;
+                margin-left: 4%;
                 margin-bottom: 40px;
                 position: static;
                 text-align: left;
             }
         
             #socialmedia1, #socialmedia2, #socialmedia3 {
-                width: 50px;
-                height: 50px;
+                width: 60px;
+                height: 60px;
+                padding-top: 20px;
             }
     
             #sociallist {
@@ -583,8 +593,8 @@ p {
             }
         
             #mypicture {
-                width: 250px;
-                height: 190px;
+                width: 100%;
+                height: 250px;
                 margin-bottom: 10px;
             }
 
@@ -648,11 +658,16 @@ p {
             }
         
             #hangman, #trivia, #rockpaperscissors, #rpggame, #rutgers {
-                height: 230px;
-                width:  290px;
+                height: 275px;
+                width:  100%;
                 
             }
     
             #trivia, #rutgers {
-                float: right;
+                float: left;
+            }
+
+            .portfoliotext {
+                width: 80%;
+                margin-top: 36%;
             }
