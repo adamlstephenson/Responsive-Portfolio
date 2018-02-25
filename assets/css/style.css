@@ -519,10 +519,140 @@ p {
         }
 
 
+        @media screen and (max-width: 640px) {
+            
+            #contentarea1 {
+                width: 82%;
+                height: 475px;
+                margin-left: 5%;
+            }
+        
+            #contentarea2 {
+                width: 82%;
+                height: 950px;
+                margin-left: 5%;
+            }
+        
+            #contentarea3  {
+                width: 85%;
+                height: 560px;
+                margin-left: 5%;
+            }
+        
+            #sidebar {
+                width: 85%;
+                height: 150px;
+                margin-top: 0;
+                padding: 20px;
+                margin-left: 5%;
+                margin-bottom: 40px;
+                position: static;
+                text-align: left;
+            }
+        
+            #sidebar2 {
+                width: 85%;
+                height: 150px;
+                margin-top: 0;
+                left: 50%;
+                padding: 20px;
+                margin-left: 5%;
+                margin-bottom: 40px;
+                position: static;
+                text-align: left;
+            }
+        
+            #sidebar3 {
+                width: 85%;
+                height: 150px;
+                margin-top: 0;
+                padding: 20px;
+                margin-left: 5%;
+                margin-bottom: 40px;
+                position: static;
+                text-align: left;
+            }
+        
+            #socialmedia1, #socialmedia2, #socialmedia3 {
+                width: 50px;
+                height: 50px;
+            }
+    
+            #sociallist {
+                margin-left: 20px;
+            }
+        
+            #mypicture {
+                width: 250px;
+                height: 190px;
+                margin-bottom: 10px;
+            }
 
+            .container {
+                border-top-style: none;
+                margin-top: 65px;
+            }
+        
+            h1 {
+                width: 100%;
+                font-size: large;
+                margin: 0;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 0;
+                padding-right: 0;
+            }
+        
+            h2 {
+                font-size: large;
+                margin-left: 20px;
+            }
+        
+            h3, h4, h5 {
+                font-size: x-large;
+            }
+        
+            .pagelinks {
+                display: block;
+                font-size: 16px;
+                margin: 0;
+                position: relative;
+                left: 0;
+                width: 100%;
+                padding-bottom: 12px;
+                padding-top:  12px;
+                background-color: white;
+                text-align: center;
+                border-bottom-style: solid;
+                border-bottom-width: 1.5px;
+                border-bottom-color: #777777;
+            }
+        
+            #about {
+                padding-right: 75px;
+                margin-left: 25px;
+            }
 
+            #portfolio {
+                margin-left: 75px;
+                padding-right: 100px;
+            }
 
-@media and screen (max-width: 640px) {
+            #contact {
+                margin-left: 75px;
+            }
 
-
-}
+            .aboutme {
+                font-size: 16px;
+           
+            }
+        
+            #hangman, #trivia, #rockpaperscissors, #rpggame, #rutgers {
+                height: 230px;
+                width:  290px;
+                
+            }
+    
+            #trivia, #rutgers {
+                float: right;
+            }
